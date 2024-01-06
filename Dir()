@@ -1,0 +1,25 @@
+#dir()
+#1
+
+class person:
+    name= "arun"
+    age = 32
+    job= "teacher"
+
+print(dir(person))
+
+#end
+
+#2
+
+class person:
+    def __init__(self) :
+        self.name= "anshii"
+        print(self.name)
+
+    
+ob= person()
+c= dir(ob)
+print(c)
+
+#end

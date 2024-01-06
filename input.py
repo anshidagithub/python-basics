@@ -1,11 +1,11 @@
-# a= input("enter your first name:")
-# b= input("enter your last name:")
-# # print("hello",a,b)
+a= input("enter your first name:")
+s= input("enter your last name:")
+print("hello",a,s)
  
-# c= input("enter first no :")
-# b= input("enter second no:")
-# d= c+b
-# print(d)
+c= input("enter first no :")
+b= input("enter second no:")
+d= c+b
+print(d)
 
 
 age=int(input("enter your age :")) 

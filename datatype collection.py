@@ -48,38 +48,3 @@ print(set1)
 set2 ={ 1,2,3,4}
 set3=set1.union(set2)
 print(set3)
-
-#dictionary
-dict1= { 
-"name" :"anshi",
-"email": "anshi@gmail.com",
-"phon": 456789
-}
-print(dict1)
-
-a= dict1["email"]
-print(a)
-
-a= dict1.get("phon")
-print(a)
-
-dict1["name"]="sabeel"
-print(dict1)
-
-for x in dict1:
-    print(x)
-
-for x in dict1:
-    print(dict1[x])
-
-    for x,y in dict1.items():
-        print(x,y)
-
-dict1["age"] = 38
-print(dict1)
-
-dict1.pop("email")
-print(dict1)
-
-del dict1["phon"]
-print(dict1)
